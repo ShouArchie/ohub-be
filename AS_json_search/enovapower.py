@@ -2,11 +2,11 @@ import requests
 import time
 
 # URL to scan
-url = "https://outages.bluewaterpower.com/Outages/Home/UpdatePushpin"
+url = "https://wnhoms.enovapower.com/Outages/Home/UpdatePushpin"
 
 # File to save the original response
-original_file = "bluewater_original_response.txt"
-new_file = "bluewater_new_response.txt"
+original_file = "enovapower_original_updatepushpin.txt"
+new_file = "enovapower_new_updatepushpin.txt"
 
 # Headers for the request
 headers = {
