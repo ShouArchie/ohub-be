@@ -2,11 +2,11 @@ import requests
 import time
 
 # URL to scan
-url = "https://utilityoutagemap.com/api/1138/false?_=1735025657513" #pretty sure its this one ?? This was the only one that upadted in like 5min
+url = "https://storage.googleapis.com/londonhydro-website-prod-www/outagemap/outage_polygons_live.kml?1735028223729"
 
 # File to save the original response
-original_file = "FestivalHydro_original_updatepushpin.txt"
-new_file = "FestivalHydro_new_updatepushpin.txt"
+original_file = "londonhydro_original_updatepushpin.txt"
+new_file = "londonhydro_new_updatepushpin.txt"
 
 # Headers for the request
 headers = {

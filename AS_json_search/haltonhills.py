@@ -2,11 +2,11 @@ import requests
 import time
 
 # URL to scan
-url = "https://utilityoutagemap.com/api/1138/false?_=1735025657513" #pretty sure its this one ?? This was the only one that upadted in like 5min
+url = "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo"
 
 # File to save the original response
-original_file = "FestivalHydro_original_updatepushpin.txt"
-new_file = "FestivalHydro_new_updatepushpin.txt"
+original_file = "haltonhills_original_updatepushpin.txt"
+new_file = "haltonhills_new_updatepushpin.txt"
 
 # Headers for the request
 headers = {
